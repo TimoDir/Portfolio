@@ -8,6 +8,9 @@ I'm creating a website Protfolio that I can show of my skill and speak about me 
 - CSS 🖌️
 - JavaScript 📺
 
+#### Wireframe: 
+https://wireframe.cc/AiJXlT
+
 ## Idea:
 1. Introduction who I am 🤓
 2. Skill 💪

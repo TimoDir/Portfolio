@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link part-->
+    <link rel="stylesheet" href="./Ressources/CSS/Style.CSS">
+    <link rel="stylesheet" href="./Ressources/CSS/_Slider.CSS">
+    <link rel="stylesheet" href="./Ressources/JS/_Slider.js">
+    <!--Link part-->
+
     <title>Portfolio TimDir</title>
 </head>
 <header>
@@ -60,38 +67,41 @@
         <!--Slider Container-->
         <div class="SlideContainerProject">
             <div class="SlideProject">
-                <img src="" alt="">
-                <div class="TextProject">
-                    <h3></h3>
-                    <p></p>
+                <div class="ElPorject TextProject">
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. 
+                        Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. 
+                        No deserunt mediocritatem mel.</p>
                 </div>
+                <div class="ElPorject"><a href=""><img src="./Ressources/img/ProjectExemple 1.jpg" alt=""></a></div>
             </div>
 
             <div class="SlideProject">
-                <img src="" alt="">
-                <div class="TextProject">
-                    <h3></h3>
-                    <p></p>
+                <div class="ElPorject TextProject">
+                    <h3>Project 2</h3>
+                    <p>Lorem ipsum no deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul 
+                        copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. 
+                        Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu.</p>
                 </div>
+                <div class="ElPorject"><a href=""><img src="./Ressources/img/ProjectExemple 2.jpg" alt=""></a></div>
             </div>
 
-            <!--Arrows for the slide-->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
             <!-- images example -->
             <div class="RowImagePorject">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 
                 <div class="ColumnImageProject">
-                    <img src="" alt="">
+                    <img src="./Ressources/img/ProjectExemple 1.jpg" onclick="currentSlide(1)" alt="">
                 </div>
 
                 <div class="ColumnImageProject">
-                    <img src="" alt="">
+                    <img src="./Ressources/img/ProjectExemple 2.jpg" onclick="currentSlide(2)" alt="">
                 </div>
 
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
         </div>
+        <script src="./Ressources/JS/_Slider.js"></script>
     </article>
     
 </body>

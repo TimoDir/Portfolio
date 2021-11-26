@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./Ressources/CSS/Style.CSS">
     <link rel="stylesheet" href="./Ressources/CSS/_Slider.CSS">
     <link rel="stylesheet" href="./Ressources/JS/_Slider.js">
+    <link rel="stylesheet" href="./Ressources/JS/_Joke.js">
     <!--Link part-->
 
     <title>Portfolio TimDir</title>
@@ -53,12 +54,11 @@
 
     <article id="Skill">
         <h2>Skill -Langage-</h2>
-        <div><img src="" alt="HTML logo"> <caption></caption></div>
-        <div><img src="" alt="CSS logo"> <caption></caption></div>
-        <div><img src="" alt="JavaScript logo"> <caption></caption></div>
-        <div><img src="" alt="Git bash logo"> <caption></caption></div>
-        <div><img src="" alt="Github logo"> <caption></caption></div>
-        <div><img src="" alt="Adobe logo"> <caption></caption></div>
+        <div><img src="./Ressources/img/HTML5.png" alt="HTML logo"> <caption>HTML -Intermediate</caption></div>
+        <div><img src="./Ressources/img/CSS.png" alt="CSS logo"> <caption>CSS - Intermediate</caption></div>
+        <div><img src="./Ressources/img/JS.png" alt="JavaScript logo"> <caption>JavaScript - Debutant</caption></div>
+        <div><img src="./Ressources/img/GitBash.png" alt="Git bash logo"> <caption>GitBash - Debutant</caption></div>
+        <div><img src="./Ressources/img/GitHub-Mark-120px-plus.png" alt="Github logo"> <caption>GitHub - Debutant</caption></div>
     </article>
 
     <article id="Project">
@@ -90,22 +90,58 @@
             <div class="RowImagePorject">
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 
-                <div class="ColumnImageProject">
+                <!-- <div class="ColumnImageProject">
                     <img src="./Ressources/img/ProjectExemple 1.jpg" onclick="currentSlide(1)" alt="">
                 </div>
 
                 <div class="ColumnImageProject">
                     <img src="./Ressources/img/ProjectExemple 2.jpg" onclick="currentSlide(2)" alt="">
-                </div>
+                </div> -->
 
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
         </div>
         <script src="./Ressources/JS/_Slider.js"></script>
     </article>
-    
+    <article id="Contact">
+        <h2>Contact</h2>
+        <h3>Email: <a href="mailto:timothee.diroian@gmail.com">timothee.diroian@gmail.com</a></h3>
+        <h3>Phone: <a href="tel:+3325252525">+3325252525</a></h3>
+        <a href="https://www.linkedin.com/in/timoth%C3%A9e-diroian-998008b5" target="_blank" rel="noreferrer noopener"><h3>Linkedin :</h3><img src="./Ressources/img/linkedin.png" alt="linkedin logo"></a>
+        <h3>Adresse: Praha 4</h3>
+        <h3>let's get in Contact!</h3>
+    </article>
+    <article id="Joke">
+        <h2>Joke generator</h2>
+        <p>Here is some bad joke that you can generate by clicking on the button.</p>
+        <button id="JokeGenerator" type="button">Joke</button>
+        <p id="JokeInput" class="JokeArea"></p>
+        <script src="./Ressources/JS/_Joke.js"></script>
+    </article>
 </body>
 <footer>
-
+    <div class="FooterContainer">
+        <div class="RigthFooter">
+            <h3><a href="#Contact">Contact</a></h3>
+            <ul>
+                <li>Email: <a href="mailto:timothee.diroian@gmail.com">timothee.diroian@gmail.com</a></li>
+                <li>Phone: <a href="tel:+3325252525">+3325252525</a></li>
+                <li>Adresse: Praha 4</li>
+                <li>let's get in Contact!</li>
+            </ul>
+        </div>
+        <div class="LeftFooter">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#Resumer">Resumer</a></li>
+                <li><a href="#Skill">Skill -Langage-</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Joke">Joke generator</a></li>
+            </ul>
+        </div>
+        <a href="https://www.linkedin.com/in/timoth%C3%A9e-diroian-998008b5" target="_blank" rel="noreferrer noopener"><img src="./Ressources/img/linkedin.png" alt="linkedin logo"></a>
+    </div>
+    <p>Credit for the icons to <a href="https://icons8.com/">icons8.com</a>. Website created by Timothée Diroian.</p>
 </footer>
 </html>

@@ -176,9 +176,9 @@ header{
 #Contact img{
     width: 40px;
 }
-
+/*
 .ContactTab{
-    /*
+    
     display: grid;
     grid-template-areas: 
     'LeftContact RigthContact'
@@ -186,10 +186,9 @@ header{
     grid-template-columns: 35% 35%;
     grid-template-rows: repeat(3, 100px);
     justify-content: center;
-    */
+    
 }
 
-/*
 .LeftContact{
     grid-area: 'LeftContact';
 }
@@ -198,8 +197,6 @@ header{
     grid-area: 'RigthContact';
 }
 */
-
-
 .ContactContainer{
     width: 100%;
     display: flex;

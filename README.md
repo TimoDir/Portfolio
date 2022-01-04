@@ -1,7 +1,7 @@
 # Portfolio
 
 ### Resum:
-I'm creating a website Protfolio that I can show of my skill and speak about me and my other project like a front-end developper. In this web site I try to do something responsive intuitive and cool. 😎
+It's an exercise who I creating a website Protfolio that I can use my knowledge, experiment a lot and improve my experience. In this web site I try to do something responsive intuitive and cool. 😎
 
 ### Technologie use:
 - HTML 📋

@@ -49,7 +49,7 @@ header{
     width: 100%;
     background-image: url(../img/Tim2.jpg);
     background-size: 100%;
-    background-position: top;
+    background-position: top 80%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     border-radius: 10px 10px;

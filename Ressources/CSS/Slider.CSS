@@ -19,14 +19,13 @@
     display: none;
     height: 500px;
     min-height: 50%;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .SlideProject img{
     width: 100%;
     height: 425px;
-    justify-content: center;
-    align-self: center;
+    margin-top: 32.5px;
     /*
     min-height: 100%;
     max-height: 100%;

@@ -196,8 +196,9 @@ header{
 
 .RigthContact{
     grid-area: 'RigthContact';
+    */
 }
-*/
+
 
 .ContactContainer{
     width: 100%;
@@ -267,9 +268,5 @@ footer{
 }
 
 .FooterContainer a{
-    color: black;
-}
-
-.FooterContainer a:{
     color: black;
 }

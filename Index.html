@@ -14,30 +14,39 @@
 
     <title>Portfolio TimDir</title>
 </head>
+<body>
 <header>
 
     <!--Welcome text in full screen click to disapear-->
-
-    <h1>Welcome to the portfolio of Timothée Diroian</h1>
-    <div>
-        <img src="" alt="Photo of Timothée Diroian">
-        <caption></caption>
+    <div class="IntroTransition">
+        <div class="TitleTransition">
+            <h1>Welcome to the portfolio of Timothée Diroian</h1>
+        </div>
+        <!--
+        <div class="TimPicTransi">
+            <img src="./Ressources/img/Tim1.jpg" alt="Photo of Timothée Diroian">
+            <img src="./Ressources/img/Tim2.jpg" alt="Photo of Timothée Diroian">
+        </div>-->
     </div>
     
     <!--NavBar fixe hide in the left corner +arrow to deploy-->
-
     <div class="Navbar">
-        <div><h2><a href="#Resumer">Resumer</a></h2></div>
-        <div><h2><a href="#Skill">Skill -Langage-</a></h2></div>
-        <div><h2><a href="#Project">Project</a></h2></div>
-        <div><h2><a href="#Contact">Contact</a></h2></div>
-        <div><h2><a href="#Joke">Joke generator</a></h2></div>
+        <!-- See if I put this or not
+        <img src="./Ressources/img/outline_arrow_right_black_24dp.png" alt="Arrow to the right">
+        <img src="./Ressources/img/outline_arrow_left_black_24dp.png" alt="Arrowto the left">
+        -->
+        <div class="NavLink">
+            <div><h2><a href="#Resumer">Resumer</a></h2></div>
+            <div><h2><a href="#Skill">Skill -Langage-</a></h2></div>
+            <div><h2><a href="#Project">Project</a></h2></div>
+            <div><h2><a href="#Contact">Contact</a></h2></div>
+            <div><h2><a href="#Joke">Joke generator</a></h2></div>
+        </div>
     </div>
 </header>
-<body>
-
+<div class="DecoBorder">
     <article id="Resumer">
-        <div>
+        <div class="ResumerContainer">
             <h2>Resumer</h2>
             <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. 
                 Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. 
@@ -47,23 +56,26 @@
                 putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. 
                 Mei iisque mentitum moderatius cu.</p>
         </div>
+        <!-- See if I put a picture or not
         <aside>
             <img src="" alt="maybe a picture of me">
         </aside>
+        -->
     </article>
 
     <article id="Skill">
         <h2>Skill -Langage-</h2>
-        <div><img src="./Ressources/img/HTML5.png" alt="HTML logo"> <caption>HTML -Intermediate</caption></div>
-        <div><img src="./Ressources/img/CSS.png" alt="CSS logo"> <caption>CSS - Intermediate</caption></div>
-        <div><img src="./Ressources/img/JS.png" alt="JavaScript logo"> <caption>JavaScript - Debutant</caption></div>
-        <div><img src="./Ressources/img/GitBash.png" alt="Git bash logo"> <caption>GitBash - Debutant</caption></div>
-        <div><img src="./Ressources/img/GitHub-Mark-120px-plus.png" alt="Github logo"> <caption>GitHub - Debutant</caption></div>
+        <div class="LangagesContainer">
+            <div class="Langages"><img src="./Ressources/img/HTML5.png" alt="HTML logo"> <figcaption>HTML -Intermediate</figcaption></div>
+            <div class="Langages"><img src="./Ressources/img/CSS.png" alt="CSS logo"> <figcaption>CSS - Intermediate</figcaption></div>
+            <div class="Langages"><img src="./Ressources/img/JS.png" alt="JavaScript logo"> <figcaption>JavaScript - Debutant</figcaption></div>
+            <div class="Langages"><img src="./Ressources/img/GitBash.png" alt="Git bash logo"> <figcaption>GitBash - Debutant</figcaption></div>
+            <div class="Langages"><img src="./Ressources/img/GitHub-Mark-120px-plus.png" alt="Github logo"> <figcaption>GitHub - Debutant</figcaption></div>
+        </div>
     </article>
-
+</div>
     <article id="Project">
 <!--Slider With each Project Maybe doing an other page with all the project-->
-        <h2>Project</h2>
         <!--Slider Container-->
         <div class="SlideContainerProject">
             <div class="SlideProject">
@@ -105,20 +117,52 @@
     </article>
     <article id="Contact">
         <h2>Contact</h2>
-        <h3>Email: <a href="mailto:timothee.diroian@gmail.com">timothee.diroian@gmail.com</a></h3>
-        <h3>Phone: <a href="tel:+3325252525">+3325252525</a></h3>
-        <a href="https://www.linkedin.com/in/timoth%C3%A9e-diroian-998008b5" target="_blank" rel="noreferrer noopener"><h3>Linkedin :</h3><img src="./Ressources/img/linkedin.png" alt="linkedin logo"></a>
-        <h3>Adresse: Praha 4</h3>
-        <h3>let's get in Contact!</h3>
+        <div class="ContactTab">
+            <div class="LeftContact ContactContainer">
+                <div class="ContactInfo">
+                    <img src="./Ressources/img/Email.png" alt="Mail img"> 
+                    <h3>Email: <a href="mailto:timothee.diroian@gmail.com">timothee.diroian@gmail.com</a></h3>
+                </div>
+                <div class="ContactInfo">
+                    <img src="./Ressources/img/Phone.png" alt="Phone img"> 
+                    <h3> Phone: <a href="tel:+3325252525">+3325252525</a></h3>
+                </div>
+                <div class="ContactInfo">
+                    <img src="./Ressources/img/Adresse.png" alt="Map img"> 
+                    <h3> Adresse: Praha 4</h3>
+                </div>
+                <div class="ContactInfo">
+                    <a href="https://www.linkedin.com/in/timoth%C3%A9e-diroian-998008b5" target="_blank" rel="noreferrer noopener"><img src="./Ressources/img/linkedin.png" alt="linkedin logo"></a>
+                    <h3>let's get in Contact!</h3>
+                </div>
+            </div>
+            <!--
+            <div class="RigthContact ContactContainer">
+                <div class="ContactInfo">
+                    <img src="./Ressources/img/Adresse.png" alt="Map img"> 
+                    <h3> Adresse: Praha 4</h3>
+                </div>
+                <div class="ContactInfo">
+                    <a href="https://www.linkedin.com/in/timoth%C3%A9e-diroian-998008b5" target="_blank" rel="noreferrer noopener"><img src="./Ressources/img/linkedin.png" alt="linkedin logo"></a>
+                    <h3>let's get in Contact!</h3>
+                </div>
+            </div>
+            -->
+        </div>
     </article>
     <article id="Joke">
         <h2>Joke generator</h2>
-        <p>Here is some bad joke that you can generate by clicking on the button.</p>
-        <button id="JokeGenerator" type="button">Joke</button>
-        <p id="JokeInput" class="JokeArea"></p>
+        <div class="JokeGenerator">
+            <div class="JokeNotice">
+                <p>Here is some bad joke that you can generate by clicking on the button.</p>
+                <button id="JokeGenerator" type="button">Joke</button>
+            </div>
+            <div class="JokeArea">
+                <p id="JokeInput"></p>
+            </div>
+        </div>
         <script src="./Ressources/JS/_Joke.js"></script>
     </article>
-</body>
 <footer>
     <div class="FooterContainer">
         <div class="RigthFooter">
@@ -144,4 +188,5 @@
     </div>
     <p>Credit for the icons to <a href="https://icons8.com/">icons8.com</a>. Website created by Timothée Diroian.</p>
 </footer>
+</body>
 </html>

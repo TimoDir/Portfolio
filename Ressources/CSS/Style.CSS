@@ -1,5 +1,275 @@
 /* Setup base code for each article exepte slider who gonabe in an other CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Indie+Flower&family=Overpass:wght@400;600&display=swap');
+
+/* font-family: 'Arvo', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Overpass', sans-serif; */
+
 html{
     margin: 0;
     padding: 0;
+    background-color: rgba(63, 40, 44, 1);
+    font-family: 'Overpass', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: -4px;
+    border-left: 45px solid rgba(63, 40, 44, 1);
+    border-right: 45px solid rgba(63, 40, 44, 1);
+}
+
+h2{
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.DecoBorder{
+    border: 5px solid rgba(63, 40, 44, 1);
+    border-radius: 10px;
+}
+
+
+/* Header + introduction */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.IntroTransition{
+    margin: 20px 0;
+    width: 100%;
+    background-image: url(../img/Tim2.jpg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px 10px;
+}
+
+.IntroTransition img{
+    width: 28%;
+    border-radius: 10px 25%;
+}
+
+.TimPicTransi{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.TitleTransition{
+    color: rgba(63, 40, 44, 1);
+    font-size: 40px;
+    padding: 30px 20px;
+    border-radius: 10px 25%;
+}
+
+
+.Navbar{
+    width: 20%;
+    margin: 30px 0px 30px 20px;
+}
+
+.NavLink{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
+}
+
+.Navbar a{
+    font-size: 23px;
+    padding: 5px 5px 5px 50px;
+    text-decoration: none;
+    color: rgba(191, 140, 110, 1);
+}
+
+.Navbar a:hover{
+    text-shadow: 1px 1px rgba(216, 216, 210, 1);
+}
+
+.Navbar a:active{
+    color: rgba(216, 216, 210, 1);
+    font-size: 24px;
+}
+
+/* Resumer */
+#Resumer{
+    background-color: rgba(140, 90, 72, 1);
+    color: rgba(216, 216, 210, 1);
+    padding: 50px 50px 100px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+#Resumer h2{
+    background-color: rgba(216, 216, 210, 1);
+    color: rgba(140, 90, 72, 1);
+}
+
+/* Skills */
+
+#Skill{
+    background-color: rgba(216, 216, 210, 1);
+    padding: 25px 0 50px 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#Skill h2{
+    background-color: rgba(140, 90, 72, 1);
+    color: rgba(216, 216, 210, 1);
+    margin: 50px 0 100px 50px;
+}
+
+.LangagesContainer{
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Langages{
+    max-width: 150px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.Langages img{
+    max-width: 80px;
+    margin: 0px 15px 15px 0;
+}
+
+.Langages figcaption{
+    color:rgba(140, 90, 72, 1);
+    font-family: 'Arvo', serif;
+}
+
+/* Contact */
+
+#Contact{
+    background-color: rgba(216, 216, 210, 1);
+    padding: 25px 0 50px 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 16;
+}
+
+#Contact h2{
+    background-color: rgba(140, 90, 72, 1);
+    color: rgba(216, 216, 210, 1);
+    margin: 50px 0 50px 50px;
+}
+
+#Contact img{
+    width: 40px;
+}
+
+.ContactTab{
+    /*
+    display: grid;
+    grid-template-areas: 
+    'LeftContact RigthContact'
+    'LeftContact RigthContact';
+    grid-template-columns: 35% 35%;
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+    */
+}
+
+/*
+.LeftContact{
+    grid-area: 'LeftContact';
+}
+
+.RigthContact{
+    grid-area: 'RigthContact';
+}
+*/
+
+.ContactContainer{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+/* Joke */
+
+#Joke{
+    background-color: rgba(140, 90, 72, 1);
+    color: rgba(216, 216, 210, 1);
+    padding: 50px 50px 50px 50px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#Joke h2{
+    background-color: rgba(216, 216, 210, 1);
+    color: rgba(140, 90, 72, 1);
+}
+
+.JokeGenerator{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.JokeNotice{
+    width: 25%;
+    margin: 2.5%;
+}
+
+.JokeNotice button{
+    background-color: rgba(63, 40, 44, 1);
+    color: rgba(216, 216, 210, 1);
+    width: 150px;
+    font-family: 'Arvo', serif;
+    height: 50px;
+}
+
+.JokeArea{
+    width: 65%;
+    color:rgba(140, 90, 72, 1);
+    background-color: rgba(216, 216, 210, 1);
+    padding: 2%;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Arvo', serif;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgba(63, 40, 44, 1);
+    color: black;
+}
+
+.FooterContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FooterContainer img{
+    width: 40px;
+    margin: 25px;
+}
+
+.FooterContainer a{
+    color: black;
+}
+
+.FooterContainer a:{
+    color: black;
 }
